@@ -21,7 +21,7 @@ from assets.discord_presence import RPCManager
 
 RPCManager.start_presence()
 
-with gr.Blocks(theme="ParityError/Interstellar", title="Applio") as Applio:
+with gr.Blocks(theme="JohnSmith9982/small_and_pretty", title="Applio") as Applio:
     gr.Markdown("# Applio")
     gr.Markdown(
         i18n(
@@ -57,8 +57,6 @@ with gr.Blocks(theme="ParityError/Interstellar", title="Applio") as Applio:
 
 if __name__ == "__main__":
     Applio.launch(
-        favicon_path="assets/ICON.ico",
-        share="--share" in sys.argv,
         inbrowser="--open" in sys.argv,
         server_port=6969,
     )
