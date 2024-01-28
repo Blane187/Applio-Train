@@ -1,3 +1,24 @@
+---
+license: mit
+title: Applio RVC
+sdk: gradio
+colorFrom: indigo
+colorTo: indigo
+pinned: true
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Applio
 
 Welcome to **Applio**, the ultimate voice cloning tool meticulously optimized for unrivaled power, modularity, and a user-friendly experience.
