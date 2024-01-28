@@ -56,7 +56,4 @@ with gr.Blocks(theme="JohnSmith9982/small_and_pretty", title="Applio") as Applio
 
 
 if __name__ == "__main__":
-    Applio.launch(
-        inbrowser="--open" in sys.argv,
-        server_port=6969,
-    )
+    Applio.launch()
