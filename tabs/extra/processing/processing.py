@@ -139,4 +139,4 @@ def processing():
             ],
             model_extract_output_info,
             api_name="model_extract",
-            )
+        )
