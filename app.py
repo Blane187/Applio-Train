@@ -21,8 +21,8 @@ from assets.discord_presence import RPCManager
 
 RPCManager.start_presence()
 
-with gr.Blocks(theme="JohnSmith9982/small_and_pretty", title="Applio") as Applio:
-    gr.Markdown("# Applio")
+with gr.Blocks(theme="Hev832/EasyAndCool", title="Applio Train") as Applio:
+    gr.Markdown("# Applio Training ")
     gr.Markdown(
         i18n(
             "Ultimate voice cloning tool, meticulously optimized for unrivaled power, modularity, and user-friendly experience."
@@ -33,27 +33,13 @@ with gr.Blocks(theme="JohnSmith9982/small_and_pretty", title="Applio") as Applio
             "[Support](https://discord.gg/IAHispano) — [Discord Bot](https://discord.com/oauth2/authorize?client_id=1144714449563955302&permissions=1376674695271&scope=bot%20applications.commands) — [Find Voices](https://applio.org/models) — [GitHub](https://github.com/IAHispano/Applio)"
         )
     )
-    with gr.Tab(i18n("Inference")):
-        inference_tab()
+    
 
     with gr.Tab(i18n("Train")):
         train_tab()
 
-    with gr.Tab(i18n("TTS")):
-        tts_tab()
-
-    with gr.Tab(i18n("Extra")):
-        extra_tab()
-
-    with gr.Tab(i18n("Download")):
-        download_tab()
-
-    with gr.Tab(i18n("Report a Bug")):
-        report_tab()
-
-    with gr.Tab(i18n("Settings")):
-        presence_tab()
+    
 
 
 if __name__ == "__main__":
-    Applio.launch()
+    Applio.launch(debug=True, share=True)
